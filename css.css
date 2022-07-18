@@ -1,0 +1,298 @@
+
+body{
+    background-image: url(image/主背景2.png);
+    background-repeat:repeat;
+    background-size:100%;
+    background-position: 0;
+
+}
+
+@font-face {
+    font-family: handwrite;
+    src: url('Skinny-Regular.otf');}
+
+.navbar
+{
+    height: 80px;
+    background-image: url(image/footer.png);
+    background-size: 100%;
+    font-family: handwrite;
+    font-size: 64px;
+    font-weight: 900;
+}
+.nav-item
+{
+    font-family: handwrite;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.navlogo{
+    width: 120px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.nav-form
+{
+    font-family: handwrite;
+    font-size: 24px;
+    font-weight: 500;
+    padding:5px;
+    margin-right: 20px;
+}
+a[href*="html"]
+{
+    font-size: 64px;
+    font-weight: 900;
+    font-family: handwrite;
+
+}
+h1
+{
+    font-family: handwrite;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+}
+h2
+{
+    font-family: handwrite;
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 30px;
+    text-align: center;
+}
+h3
+{
+    font-family: handwrite;
+    font-size: 32px;
+    font-weight: 600;
+}
+.imagesize
+{
+    width: 900px ;
+    margin-left: 20px;
+}
+li a:hover
+{
+    color: aliceblue !important;
+}
+@media(max-width:600px) 
+{
+    nav{
+        height: auto;
+    }   
+}
+footer
+{
+    height: 70px;
+}
+.sidenav
+{
+    background-color:rgb(138, 156, 172);
+    height: 800px;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 250px;
+}
+.navbar-toggler
+{
+    margin-top: 0px;
+}
+
+.book-image
+{
+    height: 150px;
+    width: 150px;
+}
+.card
+{
+    background-color: white;
+    height: 450px;
+    border-bottom-left-radius:20% ;
+    border-bottom-right-radius:20% ;
+    margin: 10px;
+}
+.banner-image1
+{
+    background-image: url(image/stairs-g757148c6f_1920.jpg);
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-image2
+{
+    background-image: url(image/pexels-seven-2420585.jpg);
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn2
+{
+    width: 200px;
+    border: none;
+    color: gray;
+    background-color:white;
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+    font-size:medium !important;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+.image-me
+{
+    height: 300px;
+    clip-path: circle();
+    margin-top: 20px;
+}
+.icon
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+}
+.btn1
+{
+    width: 200px;
+    border:2px solid black;
+    color: gray;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 370px;
+    font-size:x-large !important;
+}
+.btn1:hover
+{
+    background-color: black;
+}
+.dropdown-item
+{
+    font-family: handwrite;
+    font-size: 30px !important;
+    font-weight: 500;  
+}
+.dropdown-item:hover
+{
+    background-color: grey;
+    color: white !important;
+}
+.navbar-nav li:hover>ul.dropdown-menu
+{
+    display:block;
+}
+.igimage
+{
+    width: 160px;
+    height: 140px;
+    padding: 5px;
+}
+
+.video
+{
+    width: 600px;
+    margin-left: 170px;
+    box-shadow: 7px 7px 3px;
+}
+hr
+{
+    border: 0;
+    border-bottom: 5px solid black;
+}
+footer
+{
+    height: 80px;
+    padding-top: 10px;
+    background-image: url(image/footer.png);
+    background-size: 100%;
+    text-align: center;
+}
+.nav-link
+{
+    margin-left: 20px;
+}
+.nav-link:hover{
+    
+    color:black !important;
+    text-shadow: 0.05em 0.05em 0.05em gray;
+}
+.navbar-nav
+{
+    margin-left: 40px;
+}
+.camera
+{
+    height: 80px;
+    position: absolute;
+    top:105px;
+    left:630px;
+    animation-name: camera;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes camera
+{
+    
+    0%{
+        left: 50px;
+    } 
+    100%
+    {
+        transform: rotate(720deg);
+        left: 630px;
+    }
+}
+.video1
+{
+    height: 100px;
+    position: absolute;
+    top:1120px;
+    left:570px;
+    animation-name: video;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes video
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 680px;
+        transform: rotate(270deg);
+    }
+}
+.videobg
+{
+    margin: 30px 80px 30px 80px;
+    display: grid;
+    background-image: url(image/未命名的作品\ 3.png);
+    height: 330px;
+    background-size: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+.vpagev
+{
+    width: 95%;
+    padding: 10px 10px 10px 70px;
+}
+.note h2
+{
+    text-align: left;
+}
+.btnsearch{
+    background-color: black;
+    transition: 0.5s ease-in;
+}
+.btnsearch:hover{
+    color: black;
+    box-shadow: inset 100px 50px 50px 0px white;
+}
+

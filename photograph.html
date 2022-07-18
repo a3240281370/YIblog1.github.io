@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>小亦的網站</title>
+        <meta charset="UTF-8">
+        <!-- 響應式網站 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Boostrap 導入程式 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="photograph.css">
+                <!-- aos -->
+                <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    </head>
+
+    <body>
+        <!-- 導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="home.html"> <img src="image/logo.png" class="navlogo"></a>
+                <!--手機版 -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- 電腦版 -->
+                <div class="collapse navbar-collapse" id="linkbar">
+                    <ul class="navbar-nav me-auto"> <!--navbar-nav:橫式導覽列，me:空隙-->
+                       <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                       </li>
+                       <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                       </li>
+                       <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="life.html">life</a>
+                        <!-- 下拉式選單 -->
+                        <ul class="dropdown-menu">
+                            <a href="photograph.html" class="dropdown-item">photograph</a>
+                            <a href="videopage.html" class="dropdown-item">video</a>
+                            <a href="post.html" class="dropdown-item">post</a>
+                        </ul>
+                       </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 nav-form" type="search" placeholder="search">
+                        <button class="btn btn-success nav-form btnsearch" type="submit">search</button>
+                    </form>
+                </div>
+            </div>
+
+        </nav>
+        <!-- 內容 -->
+        <div>
+            <div >
+                <h1  data-aos="slide-right" data-aos-duration="1000">project01</h1>
+                <h2  data-aos="slide-left" data-aos-delay="500" data-aos-duration="1000">title.櫻花</h2>
+                <img src="image/1.png" alt="" class="image1"  data-aos="zoom-in-up">
+            </div>
+            <div>
+                <h1 data-aos="slide-right" data-aos-duration="1000">project02</h1>
+                <h2 data-aos="slide-left" data-aos-delay="500" data-aos-duration="1000">title.悟</h2>
+                <img src="image/2.1.png" alt="" class="image2">
+                <a href="image/2.2.jpg" ><img src="image/2.2.jpg" alt="" class="image2-2" data-aos="fade-up-left"></a>
+                <a href="image/2.3.jpg" ><img src="image/2.3.PNG" alt="" class="image2-3" data-aos="fade-down-right"></a>
+            </div>
+            <div>
+                <p></p>
+                <p></p>
+                <h1  data-aos="slide-right" data-aos-duration="1000">project03</h1>
+                <h2  data-aos="slide-left" data-aos-delay="500" data-aos-duration="1000">title.展覽</h2>
+                <img src="image/3.1.png" alt="" class="image3">
+                <a href="image/3.2.PNG" ><img src="image/3.2.PNG" alt="" class="image3-2" data-aos="flip-left"></a>
+                <a href="image/3.3.jpg" ><img src="image/3.3.jpg" alt="" class="image3-3" data-aos="flip-down"></a>
+                <a href="image/3.4.jpg" ><img src="image/3.4.jpg" alt="" class="image3-4" data-aos="flip-up"></a>
+                <a href="image/3.5.jpg" ><img src="image/3.5.jpg" alt="" class="image3-5" data-aos="flip-right"></a>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="container-fluid">
+            
+            <p>Gmail:h3240281370@gmail.com</p>
+            <p>Phone:0931-118-726</p>
+            
+        </footer>
+        <script>
+            AOS.init({
+                duration:2000
+            });
+          </script>
+    </body>
+
+    
+</html>
