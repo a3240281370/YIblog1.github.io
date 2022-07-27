@@ -1,8 +1,7 @@
 body{
-    background-repeat:repeat;
+    background-repeat:no-repeat;
     background-size:100%;
     background-position: 0;
-
 }
 
 @font-face {
@@ -13,7 +12,7 @@ body{
 {
     height: 80px;
     background-image: url(image/footer.png);
-    background-size: 100%;
+    background-size:auto 895px;
     font-family: handwrite;
     font-size: 64px;
     font-weight: 900;
@@ -21,8 +20,8 @@ body{
 .nav-item
 {
     font-family: handwrite;
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 900;
     padding-top: 15px;
 }
 .navlogo{
@@ -37,13 +36,6 @@ body{
     font-weight: 500;
     padding:5px;
     margin-right: 20px;
-}
-a[href*="html"]
-{
-    font-size: 64px;
-    font-weight: 900;
-    font-family: handwrite;
-
 }
 h1
 {
@@ -171,7 +163,7 @@ footer
 }
 .dropdown-item:hover
 {
-    background-color: grey;
+    background-color:black;
     color: white !important;
 }
 .navbar-nav li:hover>ul.dropdown-menu
@@ -183,13 +175,6 @@ footer
     width: 160px;
     height: 140px;
     padding: 5px;
-}
-
-.video
-{
-    width: 600px;
-    margin-left: 170px;
-    box-shadow: 7px 7px 3px;
 }
 hr
 {
@@ -225,63 +210,71 @@ footer
     color: black;
     box-shadow: inset 100px 50px 50px 0px white;
 }
-
+.project{
+    height: 1200px;
+    width: 900px;
+    margin-left: 19%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .image1
 {
-    width: 70%;
+    width: 900px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .image2
 {
-    width: 67%;
+    width: 820px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .image2-2{
-    height: 350px;
+    height: 300px;
     position: absolute;
-    top: 2142px;
-    right:200px;
+    bottom: 50px;
+    right: 7px;
 }
 .image2-3{
-    height: 350px;
-    position: absolute;
-    top: 1462px;
-    left: 202px;
+    height: 300px;
+    position:absolute;
+    top: 271px;
+    left: 8px;
 }
 .image3{
-    width: 80%;
+    width: 900px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .image3-2{
-    height: 245px;
-    width: 378px;
+    height: 190px;
+    width: 294px;
     position: absolute;
-    top: 2852px;
-    left: 207px;
-    
+    left: 50px;
+    top:342px;
 }
 .image3-3{
-    height: 286px;
+    width: 224px;
     position: absolute;
-    top: 2810px;
-    right: 264px;
+    right: 93px;
+    top: 310px;
 }
 .image3-4{
-    height: 296px;
+    height: 230px;
     position: absolute;
-    top: 3330px;
-    left: 289px;
+    left: 115px;
+    bottom: 253px;
 }
 .image3-5{
-    height: 240px;
-    width: 375px;
+    height: 184px;
     position: absolute;
-    top: 3385px;
-    right: 175px;
+    right: 6px;
+    bottom: 254px;
+}
+.pre1{
+    margin-top: 10px;
 }

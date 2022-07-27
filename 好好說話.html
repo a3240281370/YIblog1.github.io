@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>小亦的網站</title>
+        <meta charset="UTF-8">
+        <!-- 響應式網站 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Boostrap 導入程式 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css.css">
+    </head>
+
+    <body>
+        <!-- 導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a href="home.html"> <img src="image/logo.png" class="navlogo"></a>
+                <!--手機版 -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- 電腦版 -->
+                <div class="collapse navbar-collapse" id="linkbar">
+                    <ul class="navbar-nav me-auto"> <!--navbar-nav:橫式導覽列，me:空隙-->
+                       <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                       </li>
+                       <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                       </li>
+                       <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="life.html">life</a>
+                        <!-- 下拉式選單 -->
+                        <ul class="dropdown-menu">
+                            <a href="handmade.html" class="dropdown-item">handmade</a>
+                            <a href="videopage.html" class="dropdown-item">video</a>
+                            <a href="photograph.html" class="dropdown-item">photograph</a>  
+                        </ul>
+                       </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 nav-form" type="search" placeholder="search">
+                        <button class="btn btn-success nav-form btnsearch" type="submit">search</button>
+                    </form>
+                </div>
+            </div>
+
+        </nav>
+        <!-- 內容 -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <h1>好好說話</h1>
+                    <p>世界上所有的關係都從人際關係衍生出來，而「說話」則是一個維繫人際關係很重要的手段，說話，感覺隨時隨地都在進行中，但仔細思考過就能發現，其實說話可以細分成溝通、說服、演講、談判、辯論等五維話術，我們甚至是能夠針對某個方向加強。說到底，每句話都是權力（或稱之為框架）的遊戲，不論是兩性關係、工作、同儕，能主導對話權利的人才能達成對話背後的目的，也因此，我們將從五維話術中探討說話的藝術。
+                    </p>
+                    <hr>
+                    
+                    <h5>溝通（權力的流動）</h5>
+                    <li>溝通的核心是「理解」：如何平衡兩邊的權力關係，體會別人的角色，讓雙方都能真實的表達意見，是溝通很重要的一部份
+                    </li>
+                    <p>Ex:不去急著否定對方的想法
+                    </p>
+                    <li>買時間策略：溝通是需要花時間的，當條件不足時想辦法創造出時間
+                    <p>Ex：面試時限制一分鐘展現個人魅力，可以說：一分鐘的時間其實挺難展現個人魅力的，尤其對於我來說，我覺得在做正事時我是一個沒什麼魅力的人，但身邊的朋友常說跟我相處時很自在，我覺得這應該也算是一種比較奇怪的魅力吧，雖然可能會有點超時，但能容許我舉個例子嗎？（正事時做好自己的本分，當有意見分歧時我能跳出來幫忙圓場、當靈感用盡時我能給予獨到的想法...)
+                    </p>
+                    </li>
+                    <li>安慰人時不要再說「沒事拉」:在根本不知事情的前因後果下，憑什麼幫對方大事化小
+                    </li>
+                    <p>需要我的話儘管跟我說</p>
+                    <li>社交開場好法寶：聊名字（注意不要說「我也有認識名字叫xxx」，人們都希望自己獨一無二</li>
+                    <li>丟出問句獲得資訊小技巧：不是要向對方索取資訊，而是讓對方分享態度</li>
+                    <p>Bad ex：你平常都待在家還是會出去玩                    </p>
+                    <p>Good ex：你喜歡出去玩嗎/你覺得高雄有什麼好玩的
+                    </p>
+                    <li>從自身感受表達想法：想要評價他人行為，不要說「你做的怎樣」，會有種地位不平等的感覺，而要說「你這樣讓我感覺...」(表達自己感受）</li>
+                    <br>
+                    <h5>說服（權力在對方）</h5>
+                    <li>讓對方說服自己：說服強調的是「改變」對方想法的能力，好的說服是讓對方從自身角度去思考，而不是將自己的理念強行灌輸給對方要對方接受，讓「我說服了你（我對你錯）」變成「你說服了自己（思維升級）」
+                    </li>
+                    <li>反向提問：提出問句，驅使對方反駁我的論點，同時為自己的行動找到好理由</li>
+                    <p> 壞例：你為什麼不減肥，瘦一點不好嗎（對方會想各種拒絕的理由
+                    </p>
+                    <p>好例：你為什麼要減肥，胖胖的也很好啊（對方想減肥的信念會逐漸加深
+                    </p>
+                    <li>請人幫人：讓對方瞭解幫這個忙做與不做的區別
+                    </li>
+                    <p>Ex：我母親年紀大無法久站，如果沒人讓座，可能就只能坐地板了（讓對方知道付出能為他人減輕多少痛苦，增加多少快樂
+                    </p>
+                    <li>給時間壓力
+                    </li>
+                    <li>當對方把你「架起來」，試著不要謙虛躲掉，可以嘗試運用架起來的高度來堅持自己的立場
+                    </li>
+                    <h5>談判
+                    </h5>
+                    <li>糾正式引導」獲取資訊：給對方一個貌似肯定的答案（要表現的自信滿滿），引導對方糾正我們（可在反駁對方的糾正，獲得更進一步的資訊</li>
+                    <li>加薪：</li>
+                    <p>＊第一步：提前詢問加薪標準</p>
+                    <p>    第二步：帶領對方一同想像未來</p>
+                    <li>殺價：</li>
+                    <p>第一步：把對方拉上談判桌（表達非常想要，詢問細節，讓店家投入時間心力）</p>
+                    <p>第二步：請出不太友好的人到桌上（例如說家裡的人不希望花太多錢）
+                    </p>
+                    <p>第三步：果斷掀桌（驚訝、失望等情緒起伏拉大）</p>
+                    <li>把是非題變選擇題</li>
+                    <h5>演講</h5>
+                    <li>善用故事包裝</li>
+                    <li>*獲得觀眾的信任</li>
+                    <li>練習失誤：當忘詞等狀況發生時不要從頭練習一遍，而是要試著圓回來，畢竟正式上台沒有從頭再一次的機會
+                    </li>
+
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="container-fluid">
+            <pre class="pre1"> Gmail:h3240281370@gmail.com
+        Phone:0931-118-726                
+            </pre>
+            
+        </footer>
+    </body>
+
+    
+</html>
