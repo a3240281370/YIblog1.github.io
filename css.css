@@ -252,6 +252,7 @@ footer
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
 @keyframes video
 {
     0%{
@@ -264,20 +265,27 @@ footer
 }
 .videobg
 {
-    background-color:#EDEDED;
     width: 1200px;
-    height: 800px;
+    height: 500px;
     margin-bottom: 50px;
     margin-left: 100px;
     margin-top: 30px;
     position: relative;
+    z-index: -3;
 }
-.vpagev
+.v1
 {
     width: 500px;
     height: 282px;
     padding: 30px 10px 10px 30px;
 
+}
+.v2{
+    width: 500px;
+    height: 282px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
 }
 .note h2
 {
@@ -286,14 +294,85 @@ footer
 .note p{
     padding-right: 100px;
 }
+.note{
+    text-align: center;
+    font-size: 48px;
+}
 .note1{
-    border: solid 4px black;
-    height: 300px;
+    border: solid 6px black;
+    background-color: white;
+    height: 250px;
     width: 600px;
     position: absolute;
-    top: 250px;
-    left: 450px;
+    top: 150px;
+    left: 470px;
+    z-index: -1;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+.dec1{
+    background-color: black;
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.dec2{
+    background-color: black;
+    height: 200px;
+    width: 100px;
+    position: absolute;
+    top: 220px;
+    left: 380px;
+    z-index: -2;
+}
+.note2{
+    border: solid 6px black;
+    background-color: white;
+    height: 250px;
+    width: 600px;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    z-index: -1;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.dec3{
+    background-color: black;
+    height: 150px;
+    width: 60px;
+    position: absolute;
+    top: 350px;
+    right: 200px;
+    z-index: -2;
+}
+.dec6{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+.dec7{
+    background-color: black;
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 420px;
+    right: 80px;
+}
+.dec8{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 160px;
+    left: 90px;
+}
+
 .btnsearch{
     background-color: black;
     transition: 0.5s ease-in;
